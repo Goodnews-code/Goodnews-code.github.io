@@ -106,8 +106,18 @@ header >div> div> img {
   height: 56px;
 }
 
+.bridge-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-image {
-  margin: -131px 100px 119px 100px;
+  width: 1240px;
+  height: 536px;
+  align-items: center;
+  margin-top: -131px;
+  margin-bottom: 119px;
 }
 
 .services {
