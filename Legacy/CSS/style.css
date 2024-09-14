@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Almarai";
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh; /*px, rem, vh, vw, em, cm, mm*/
+  background: url(../Images/Legacy.jpeg) center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  color: #ffffff; /* hex */
+  /* color: rgb(288, 288, 288); rgb */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 219px 0px 239px;
+}
+
+ul {
+  display: flex;
+}
+
+ul > li {
+  margin-right: 30.17px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.86px;
+}
+
+nav>button {
+  width: 177px;
+  height: 63px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 86px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.86px;
+  cursor: pointer;
+}
+
+nav>p {
+  font-size: 24.09px;
+  font-weight: 700;
+  line-height: 26.89px;
+}
+
+.header-inner {
+  /* border: 1px solid red; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.inner-body {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inner-body>h2 {
+  text-align: center;
+  font-size: 54.09px;
+  line-height: 60.36px;
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+
+.inner-body>p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 26.78px;
+  font-weight: 300;
+  margin-bottom: 85px;
+}
+
+.inner-body > a {
+  text-decoration: none;
+  width: 222px;
+  height: 72px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 86px;
+  background: #0F4D3F;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
